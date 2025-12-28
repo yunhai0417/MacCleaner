@@ -595,7 +595,7 @@ struct TahoeToolbarItem<Content: View>: ToolbarContent {
         if isGroup {
             if #available(macOS 26.0, *) {
                 ToolbarItemGroup(placement: placement) { content() }
-                    .sharedBackgroundVisibility(.hidden)
+//                    .sharedBackgroundVisibility(.hidden)
             } else {
                 ToolbarItemGroup(placement: placement) { content() }
             }
@@ -603,10 +603,10 @@ struct TahoeToolbarItem<Content: View>: ToolbarContent {
             if #available(macOS 26.0, *) {
                 if let id {
                     ToolbarItem(id: id, placement: placement) { content() }
-                        .sharedBackgroundVisibility(.hidden)
+//                        .sharedBackgroundVisibility(.hidden)
                 } else {
                     ToolbarItem(placement: placement) { content() }
-                        .sharedBackgroundVisibility(.hidden)
+//                        .sharedBackgroundVisibility(.hidden)
                 }
             } else {
                 if let id {
@@ -625,11 +625,11 @@ struct ifGlassAvailable: ViewModifier {
 
     func body(content: Content) -> some View {
         if #available(macOS 26.0, *) {
-            content
-                .glassEffect(glassEffect == "Regular" ? .regular : .clear, in: .rect(cornerRadius: 20))
+//            content.glassEffect(glassEffect == "Regular" ? .regular : .clear, in: .rect(cornerRadius: 20))
         }
         else {
             content
+//                .glassEffect(glassEffect == "Regular" ? .regular : .clear, in: .rect(cornerRadius: 20))
         }
     }
 }
@@ -648,8 +648,7 @@ struct ifGlassAvailableMain: ViewModifier {
 
     func body(content: Content) -> some View {
         if #available(macOS 26.0, *) {
-            content
-                .glassEffect(glassEffect == "Regular" ? .regular : .clear, in: .rect(cornerRadius: 20))
+//            content.glassEffect(glassEffect == "Regular" ? .regular : .clear, in: .rect(cornerRadius: 20))
         }
         else {
             content
@@ -678,7 +677,7 @@ struct ifGlassAvailableSidebar: ViewModifier {
         if #available(macOS 26.0, *) {
             content
                 .background(.ultraThinMaterial.opacity(glassEffect == "Regular" ? 0 : 0.7))
-                .glassEffect(glassEffect == "Regular" ? .regular : .clear, in: .rect(cornerRadius: 20))
+//                .glassEffect(glassEffect == "Regular" ? .regular : .clear, in: .rect(cornerRadius: 20))
                 .clipShape(RoundedRectangle(cornerRadius: 20))
                 .overlay {
                     RoundedRectangle(cornerRadius: 20)

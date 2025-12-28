@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C707E2942EAF217200AAD817 /* Sparkle in Frameworks */ = {isa = PBXBuildFile; productRef = C707E2932EAF217200AAD817 /* Sparkle */; };
+		6048C9D32EFAFFEE007F47EF /* ArgumentParser in Frameworks */ = {isa = PBXBuildFile; productRef = 6048C9D22EFAFFEE007F47EF /* ArgumentParser */; };
+		6048C9D52EFAFFEE007F47EF /* generate-docc-reference in Frameworks */ = {isa = PBXBuildFile; productRef = 6048C9D42EFAFFEE007F47EF /* generate-docc-reference */; };
+		6048C9D72EFAFFEE007F47EF /* generate-manual in Frameworks */ = {isa = PBXBuildFile; productRef = 6048C9D62EFAFFEE007F47EF /* generate-manual */; };
+		6048CE472EFB0990007F47EF /* Sparkle in Frameworks */ = {isa = PBXBuildFile; productRef = 6048CE462EFB0990007F47EF /* Sparkle */; };
 		C71449E52DA826610032B295 /* Lipo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C90DD22DA81C590056769A /* Lipo.swift */; };
 		C7149E792E68DE7E00A15356 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = C7149E782E68DE7E00A15356 /* Localizable.xcstrings */; };
 		C72893052AFD42E600C8C1CD /* DeepLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72893042AFD42E600C8C1CD /* DeepLink.swift */; };
@@ -30,7 +33,6 @@
 		C77020292EA94D0A00240D58 /* FuzzySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77020282EA94D0A00240D58 /* FuzzySearch.swift */; };
 		C770B6ED2E78DF9D005A0ABD /* Glass.icon in Resources */ = {isa = PBXBuildFile; fileRef = C770B6EC2E78DF9D005A0ABD /* Glass.icon */; };
 		C770D7DB2CE7C9AD00B3492A /* DevelopmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C770D7DA2CE7C9A100B3492A /* DevelopmentView.swift */; };
-		C7736E4F2C49A44200917293 /* AlinFoundation in Frameworks */ = {isa = PBXBuildFile; productRef = C7736E4E2C49A44200917293 /* AlinFoundation */; };
 		C77B90042AF18E2E009CC655 /* PearcleanerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77B90032AF18E2E009CC655 /* PearcleanerApp.swift */; };
 		C77B90162AF19377009CC655 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77B90152AF19377009CC655 /* AppState.swift */; };
 		C77B90182AF19382009CC655 /* AppCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77B90172AF19382009CC655 /* AppCommands.swift */; };
@@ -42,7 +44,6 @@
 		C78FF5E12EC1A3B400FC610A /* PasswordRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78FF5E02EC1A3B400FC610A /* PasswordRequestHandler.swift */; };
 		C78FF5E32EC1B1E100FC610A /* KeychainPasswordManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78FF5E22EC1B1E100FC610A /* KeychainPasswordManager.swift */; };
 		C7A2A4D62DDB957D006E05E4 /* CLI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A2A4D52DDB957D006E05E4 /* CLI.swift */; };
-		C7A2A4D92DDB95C4006E05E4 /* ArgumentParser in Frameworks */ = {isa = PBXBuildFile; productRef = C7A2A4D82DDB95C4006E05E4 /* ArgumentParser */; };
 		C7A6DBF12C9DD27200CFA042 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7A6DBF02C9DD27200CFA042 /* Assets.xcassets */; };
 		C7BB99292E8AF1CB007BBB81 /* PluginsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BB99282E8AF1CB007BBB81 /* PluginsView.swift */; };
 		C7BB992F2E8B225F007BBB81 /* FileSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BB992E2E8B225F007BBB81 /* FileSearchView.swift */; };
@@ -54,7 +55,6 @@
 		C7DD49EE2BAB7F6000CCBA16 /* ReversePathsFetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DD49ED2BAB7F6000CCBA16 /* ReversePathsFetch.swift */; };
 		C7F539382AF60865007DF1B2 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F539372AF60865007DF1B2 /* Utilities.swift */; };
 		C7F8436B2CBF066F00E3E30A /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = C7F8436A2CBF066F00E3E30A /* Localizable.xcstrings */; };
-		C7FBD9DF2DAD66D500151934 /* AlinFoundation in Frameworks */ = {isa = PBXBuildFile; productRef = C7C90DDD2DA8221B0056769A /* AlinFoundation */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -263,7 +263,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7FBD9DF2DAD66D500151934 /* AlinFoundation in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,11 +270,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C707E2942EAF217200AAD817 /* Sparkle in Frameworks */,
+				6048C9D52EFAFFEE007F47EF /* generate-docc-reference in Frameworks */,
+				6048C9D32EFAFFEE007F47EF /* ArgumentParser in Frameworks */,
 				C76EDCD62C45DC82000CF29D /* AlinFoundation in Frameworks */,
-				C7A2A4D92DDB95C4006E05E4 /* ArgumentParser in Frameworks */,
+				6048CE472EFB0990007F47EF /* Sparkle in Frameworks */,
+				6048C9D72EFAFFEE007F47EF /* generate-manual in Frameworks */,
 				C783F93A2E9039EB003450E7 /* PackageKit.framework in Frameworks */,
-				C7736E4F2C49A44200917293 /* AlinFoundation in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -463,7 +463,6 @@
 			);
 			name = PearcleanerHelper;
 			packageProductDependencies = (
-				C7C90DDD2DA8221B0056769A /* AlinFoundation */,
 			);
 			productName = PearcleanerHelper;
 			productReference = C73545F02D849A1B00A3DC0C /* PearcleanerHelper */;
@@ -504,9 +503,10 @@
 			name = Pearcleaner;
 			packageProductDependencies = (
 				C76EDCD52C45DC82000CF29D /* AlinFoundation */,
-				C7736E4E2C49A44200917293 /* AlinFoundation */,
-				C7A2A4D82DDB95C4006E05E4 /* ArgumentParser */,
-				C707E2932EAF217200AAD817 /* Sparkle */,
+				6048C9D22EFAFFEE007F47EF /* ArgumentParser */,
+				6048C9D42EFAFFEE007F47EF /* generate-docc-reference */,
+				6048C9D62EFAFFEE007F47EF /* generate-manual */,
+				6048CE462EFB0990007F47EF /* Sparkle */,
 			);
 			productName = PeakPurge;
 			productReference = C77B90002AF18E2E009CC655 /* Pearcleaner.app */;
@@ -583,8 +583,8 @@
 			mainGroup = C77B8FF72AF18E2E009CC655;
 			packageReferences = (
 				C7736E4D2C49A44200917293 /* XCRemoteSwiftPackageReference "AlinFoundation" */,
-				C7A2A4D72DDB95C4006E05E4 /* XCRemoteSwiftPackageReference "swift-argument-parser" */,
 				C707E2922EAF217200AAD817 /* XCRemoteSwiftPackageReference "Sparkle" */,
+				C7A2A4D72DDB95C4006E05E4 /* XCRemoteSwiftPackageReference "swift-argument-parser" */,
 			);
 			preferredProjectObjectVersion = 56;
 			productRefGroup = C77B90012AF18E2E009CC655 /* Products */;
@@ -721,18 +721,18 @@
 				APP_BUILD = "$(APP_BUILD)";
 				APP_VERSION = "$(APP_VERSION)";
 				CODE_SIGN_ENTITLEMENTS = "";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Developer ID Application";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = "$(APP_BUILD)";
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = "";
-				"DEVELOPMENT_TEAM[sdk=macosx*]" = BK8443AXLU;
+				DEVELOPMENT_TEAM = CQ44W28Q5W;
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = "";
 				INSTALL_PATH = "";
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = "$(APP_VERSION)";
-				PRODUCT_BUNDLE_IDENTIFIER = com.alienator88.PearcleanerSentinel;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yundawn.forgcleanerSentinel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
@@ -769,16 +769,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Developer ID Application";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = "$(APP_BUILD)";
-				DEVELOPMENT_TEAM = "";
-				"DEVELOPMENT_TEAM[sdk=macosx*]" = BK8443AXLU;
+				DEVELOPMENT_TEAM = CQ44W28Q5W;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INSTALL_PATH = "";
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = "$(APP_VERSION)";
-				PRODUCT_BUNDLE_IDENTIFIER = com.alienator88.Pearcleaner.PearcleanerHelper;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yundawn.forgcleaner.forgcleanerHelper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
@@ -959,15 +958,14 @@
 				ASSETCATALOG_COMPILER_SKIP_APP_STORE_DEPLOYMENT = YES;
 				ASSETCATALOG_COMPILER_STANDALONE_ICON_BEHAVIOR = default;
 				CODE_SIGN_ENTITLEMENTS = Pearcleaner/Resources/Pearcleaner.entitlements;
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Developer ID Application";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = "$(APP_BUILD)";
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "";
-				DEVELOPMENT_TEAM = "";
-				"DEVELOPMENT_TEAM[sdk=macosx*]" = BK8443AXLU;
+				DEVELOPMENT_TEAM = CQ44W28Q5W;
 				ENABLE_APP_SANDBOX = NO;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -990,11 +988,10 @@
 				MARKETING_VERSION = "$(APP_VERSION)";
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "";
-				OTHER_SWIFT_FLAGS = "-Xcc -fmodule-map-file=/Users/alin/GitHub/PearcleanerGH/Pearcleaner/Logic/AppsUpdater/PrivateFrameworks/CommerceKit/module.modulemap -Xcc -fmodule-map-file=/Users/alin/GitHub/PearcleanerGH/Pearcleaner/Logic/AppsUpdater/PrivateFrameworks/StoreFoundation/module.modulemap";
-				PRODUCT_BUNDLE_IDENTIFIER = com.alienator88.Pearcleaner;
+				OTHER_SWIFT_FLAGS = "-Xcc -fmodule-map-file=/Users/wuyunhai/Documents/iOSSpec/MacCleaner/Pearcleaner/Logic/AppsUpdater/PrivateFrameworks/CommerceKit/module.modulemap -Xcc -fmodule-map-file=/Users/wuyunhai/Documents/iOSSpec/MacCleaner/Pearcleaner/Logic/AppsUpdater/PrivateFrameworks/CommerceKit/module.modulemap -Xcc -fmodule-map-file=/Users/wuyunhai/Documents/iOSSpec/MacCleaner/Pearcleaner/Logic/AppsUpdater/PrivateFrameworks/StoreFoundation/module.modulemap";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yundawn.forgcleaner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "M1 Pro Signed - Pearcleaner";
 				REGISTER_APP_GROUPS = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "Pearcleaner/Logic/PKG/Pearcleaner-Bridging-Header.h";
@@ -1047,8 +1044,8 @@
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = "$(APP_VERSION)";
 				OTHER_LDFLAGS = "";
-				OTHER_SWIFT_FLAGS = "-Xcc -fmodule-map-file=/Users/alin/GitHub/PearcleanerGH/Pearcleaner/Logic/AppsUpdater/PrivateFrameworks/CommerceKit/module.modulemap -Xcc -fmodule-map-file=/Users/alin/GitHub/PearcleanerGH/Pearcleaner/Logic/AppsUpdater/PrivateFrameworks/StoreFoundation/module.modulemap";
-				PRODUCT_BUNDLE_IDENTIFIER = com.alienator88.Pearcleaner;
+				OTHER_SWIFT_FLAGS = "-Xcc -fmodule-map-file=/Users/wuyunhai/Documents/iOSSpec/MacCleaner/Pearcleaner/Logic/AppsUpdater/PrivateFrameworks/CommerceKit/module.modulemap -Xcc -fmodule-map-file=/Users/wuyunhai/Documents/iOSSpec/MacCleaner/Pearcleaner/Logic/AppsUpdater/PrivateFrameworks/CommerceKit/module.modulemap -Xcc -fmodule-map-file=/Users/wuyunhai/Documents/iOSSpec/MacCleaner/Pearcleaner/Logic/AppsUpdater/PrivateFrameworks/StoreFoundation/module.modulemap";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yundawn.forgcleaner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "M1 Pro Signed - Pearcleaner";
@@ -1070,12 +1067,11 @@
 				APP_BUILD = "$(APP_BUILD)";
 				APP_VERSION = "$(APP_VERSION)";
 				CODE_SIGN_ENTITLEMENTS = FinderOpen/FinderOpen.entitlements;
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Developer ID Application";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = "$(APP_BUILD)";
-				DEVELOPMENT_TEAM = "";
-				"DEVELOPMENT_TEAM[sdk=macosx*]" = BK8443AXLU;
+				DEVELOPMENT_TEAM = CQ44W28Q5W;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FinderOpen/Info.plist;
@@ -1090,10 +1086,9 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = "$(APP_VERSION)";
-				PRODUCT_BUNDLE_IDENTIFIER = com.alienator88.Pearcleaner.FinderOpen;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yundawn.forgcleaner.FinderOpen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "Pearcleaner Finder Extension";
 				REGISTER_APP_GROUPS = YES;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -1128,7 +1123,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = "$(APP_VERSION)";
-				PRODUCT_BUNDLE_IDENTIFIER = com.alienator88.Pearcleaner.FinderOpen;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yundawn.forgcleaner.FinderOpen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "Pearcleaner Finder Extension";
@@ -1195,7 +1190,7 @@
 			repositoryURL = "https://github.com/sparkle-project/Sparkle";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 2.8.0;
+				minimumVersion = 2.6.0;
 			};
 		};
 		C7736E4D2C49A44200917293 /* XCRemoteSwiftPackageReference "AlinFoundation" */ = {
@@ -1217,28 +1212,24 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		C707E2932EAF217200AAD817 /* Sparkle */ = {
+		6048C9D22EFAFFEE007F47EF /* ArgumentParser */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = C707E2922EAF217200AAD817 /* XCRemoteSwiftPackageReference "Sparkle" */;
+			productName = ArgumentParser;
+		};
+		6048C9D42EFAFFEE007F47EF /* generate-docc-reference */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = "generate-docc-reference";
+		};
+		6048C9D62EFAFFEE007F47EF /* generate-manual */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = "generate-manual";
+		};
+		6048CE462EFB0990007F47EF /* Sparkle */ = {
+			isa = XCSwiftPackageProductDependency;
 			productName = Sparkle;
 		};
 		C76EDCD52C45DC82000CF29D /* AlinFoundation */ = {
 			isa = XCSwiftPackageProductDependency;
-			productName = AlinFoundation;
-		};
-		C7736E4E2C49A44200917293 /* AlinFoundation */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = C7736E4D2C49A44200917293 /* XCRemoteSwiftPackageReference "AlinFoundation" */;
-			productName = AlinFoundation;
-		};
-		C7A2A4D82DDB95C4006E05E4 /* ArgumentParser */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = C7A2A4D72DDB95C4006E05E4 /* XCRemoteSwiftPackageReference "swift-argument-parser" */;
-			productName = ArgumentParser;
-		};
-		C7C90DDD2DA8221B0056769A /* AlinFoundation */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = C7736E4D2C49A44200917293 /* XCRemoteSwiftPackageReference "AlinFoundation" */;
 			productName = AlinFoundation;
 		};
 /* End XCSwiftPackageProductDependency section */

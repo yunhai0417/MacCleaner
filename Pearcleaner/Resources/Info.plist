@@ -42,12 +42,12 @@
 			</dict>
 			<key>NSMessage</key>
 			<string>handleServiceRequest</string>
+			<key>NSRequiredContext</key>
+			<dict/>
 			<key>NSSendFileTypes</key>
 			<array>
 				<string>com.apple.application-bundle</string>
 			</array>
-			<key>NSRequiredContext</key>
-			<dict/>
 		</dict>
 	</array>
 </dict>

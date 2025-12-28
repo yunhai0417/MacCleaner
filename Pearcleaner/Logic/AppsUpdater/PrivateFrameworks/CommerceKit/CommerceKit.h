@@ -5,7 +5,8 @@
 // - LC_SOURCE_VERSION: 716.0.8.0.0
 //
 
-@import StoreFoundation;
+// #import "StoreFoundation.h"  // Use direct import instead of @import
+#import "StoreFoundation.h"
 
 @class CKDialog, CKDownloadQueueClient;
 
